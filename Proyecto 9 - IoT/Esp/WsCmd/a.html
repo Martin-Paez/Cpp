@@ -3,7 +3,6 @@
 
 <head>
     <title>Consola ESP32</title>
-    <!-- Con el icono de la pesatana te ahorras intercambio de mensajes -->
     <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/350/PNG/512/bash_36261.png">
 </head>
 
@@ -61,7 +60,7 @@
 
         let cmd = new Cmd();
 
-        // Enviar cuando se presiona enter
+        // Para enviar mensaje cuando se presiona enter
         const input = document.getElementById("command");
         input.addEventListener("keyup", function(event) {
             if (event.keyCode === 13) {
@@ -69,7 +68,7 @@
             }
         });
 
-        // Para calcular el ancho del input
+        // Para calcular el ancho del input usando js
         const boton = document.getElementById("send");
         const anchoBoton = getComputedStyle(boton).width;
         document.documentElement.style.setProperty("--ancho-boton", anchoBoton);
