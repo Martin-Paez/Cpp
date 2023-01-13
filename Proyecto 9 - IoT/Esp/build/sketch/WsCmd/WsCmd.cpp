@@ -1,4 +1,4 @@
-#line 1 "c:\\Users\\54911\\Documents\\GitHub\\C\\Proyecto 9 - IoT\\Esp\\WsCmd\\WsCmd.cpp"
+#line 1 "c:\\Users\\54911\\Documents\\GitHub\\Cpp\\Proyecto 9 - IoT\\Esp\\WsCmd\\WsCmd.cpp"
 // En Arduino el .cpp se incluye en el .h, y no al revez 
 
 WsSerial::WsSerial(int port)

@@ -1,4 +1,4 @@
-#line 1 "c:\\Users\\54911\\Documents\\GitHub\\C\\Proyecto 9 - IoT\\Esp\\RunT\\RunT.cpp"
+#line 1 "c:\\Users\\54911\\Documents\\GitHub\\Cpp\\Proyecto 9 - IoT\\Esp\\RunT\\RunT.cpp"
 // En Arduino el .cpp se incluye en el .h, y no al revez 
 
 RunT::RunT(int period, void func(), bool paused): f(func) {

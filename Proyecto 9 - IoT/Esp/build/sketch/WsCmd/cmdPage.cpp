@@ -1,4 +1,4 @@
-#line 1 "c:\\Users\\54911\\Documents\\GitHub\\C\\Proyecto 9 - IoT\\Esp\\WsCmd\\cmdPage.cpp"
+#line 1 "c:\\Users\\54911\\Documents\\GitHub\\Cpp\\Proyecto 9 - IoT\\Esp\\WsCmd\\cmdPage.cpp"
 String cmdPage() {
   String index = R"(HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n
   <!DOCTYPE html>

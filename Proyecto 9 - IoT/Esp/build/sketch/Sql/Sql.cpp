@@ -1,4 +1,4 @@
-#line 1 "c:\\Users\\54911\\Documents\\GitHub\\C\\Proyecto 9 - IoT\\Esp\\Sql\\Sql.cpp"
+#line 1 "c:\\Users\\54911\\Documents\\GitHub\\Cpp\\Proyecto 9 - IoT\\Esp\\Sql\\Sql.cpp"
 // En Arduino Sql.h incluye Sql.cpp 
 
 Sql::Sql() : Sql(DB_USER, DB_PASS, DB, dbIp, PORT, Serial) {}
